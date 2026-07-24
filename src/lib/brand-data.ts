@@ -50,7 +50,7 @@ export const collections = [
       "El pez más grande del mar, filtrador y dócil, se desliza a ~5 km/h. Cada individuo tiene un patrón único de rayas y manchas. Completamente inofensivo para humanos, tranquilo con los buzos.",
     conservation:
       "En peligro por colisiones con barcos, pesca incidental y contaminación.",
-    patternHint: "Rayas y manchas blancas únicas sobre fondo oscuro",
+    image: "/images/tiburon-ballena.jpeg",
     accentColor: "#00C8E8",
   },
   {
@@ -61,7 +61,7 @@ export const collections = [
       "Su piel absorbe pequeñas cantidades de oxígeno; resistente y flexible. Soporta presión, corales, mordidas y largas migraciones. Las escamas funcionan como sensores: detectan temperatura, vibraciones y depredadores.",
     conservation:
       "Coloridos viajeros que cautivan por su gracia al nadar y su longevidad.",
-    patternHint: "Escamas hexagonales en tonos verde esmeralda y caramelo",
+    image: "/images/tortuga.jpeg",
     accentColor: "#00B07A",
   },
   {
@@ -72,7 +72,7 @@ export const collections = [
       "Piel cubierta por millones de microestructuras tipo 'dientes' (dentículos) que reducen la fricción y protegen de heridas. Detecta vibraciones, olores diluidos y campos eléctricos —su sexto sentido. Su hidrodinámica inspira tecnologías del futuro.",
     conservation:
       "Su biomimética inspira trajes de natación y recubrimientos antibacterianos avanzados.",
-    patternHint: "Franjas verticales oscuras sobre gris azulado, como el tigre",
+    image: "/images/tiburon-tigre.jpg",
     accentColor: "#4A9EE8",
   },
   {
@@ -83,8 +83,19 @@ export const collections = [
       "Usa sus aletas pectorales como alas y salta más de 1 m fuera del agua. Cada raya tiene un patrón de manchas blancas único. Puede superar 3 m de envergadura y ~230 kg. Ovovivípara: las crías nacen ya formadas.",
     conservation:
       "Sus dentículos dérmicos ahorran energía al nadar. La estructura de su piel inspira biomimética marina.",
-    patternHint: "Manchas blancas sobre negro intenso, simétricas como constelaciones",
+    image: "/images/raya-aguila.jpg",
     accentColor: "#A78BFA",
+  },
+  {
+    id: "tiburon-azul",
+    name: "Tiburón Azul",
+    headline: "El color del océano hecho piel",
+    description:
+      "Inspirado en la piel del tiburón ballena, llevado a las tonalidades azules que asemejan el color del océano donde habita. Elegante, profundo y en perfecta armonía con el agua que lo rodea.",
+    conservation:
+      "Una oda visual al mar abierto y a las criaturas que lo llaman hogar.",
+    image: "/images/tiburon-azul.jpg",
+    accentColor: "#3B82F6",
   },
 ];
 

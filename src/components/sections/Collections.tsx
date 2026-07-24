@@ -1,6 +1,6 @@
+import Image from "next/image";
 import { collections } from "@/lib/brand-data";
 import ScrollReveal from "@/components/ui/ScrollReveal";
-import ImagePlaceholder from "@/components/ui/ImagePlaceholder";
 
 export default function Collections() {
   return (
@@ -48,12 +48,12 @@ export default function Collections() {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
+            gridTemplateColumns: "repeat(auto-fill, minmax(min(100%, 280px), 1fr))",
             gap: "1.75rem",
           }}
         >
           {collections.map((col, i) => (
-            <ScrollReveal key={col.id} delay={i * 0.1}>
+            <ScrollReveal key={col.id} delay={i * 0.08}>
               <article
                 className="card-base"
                 style={{
@@ -62,24 +62,45 @@ export default function Collections() {
                   flexDirection: "column",
                 }}
               >
-                {/* Image placeholder */}
-                <div style={{ padding: "1.25rem 1.25rem 0" }}>
-                  <ImagePlaceholder
-                    label={`Traje ${col.name}`}
-                    aspectRatio="4/5"
-                    hint={col.patternHint}
+                {/* Product image */}
+                <div
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    aspectRatio: "4/5",
+                    overflow: "hidden",
+                    borderRadius: "0.75rem 0.75rem 0 0",
+                  }}
+                >
+                  <Image
+                    src={col.image}
+                    alt={`Traje Piel de Agua — colección ${col.name}`}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    style={{ objectFit: "cover", objectPosition: "center top" }}
+                    priority={i < 2}
+                  />
+                  {/* Subtle gradient overlay at bottom for text legibility */}
+                  <div
+                    aria-hidden="true"
+                    style={{
+                      position: "absolute",
+                      bottom: 0,
+                      left: 0,
+                      right: 0,
+                      height: "40%",
+                      background:
+                        "linear-gradient(to top, rgba(4,21,39,0.7), transparent)",
+                    }}
                   />
                 </div>
 
-                {/* Accent top line */}
+                {/* Accent line */}
                 <div
                   style={{
                     height: "2px",
                     background: `linear-gradient(90deg, ${col.accentColor}, transparent)`,
-                    margin: "0 1.25rem",
-                    marginTop: "1.25rem",
-                    opacity: 0.7,
-                    borderRadius: "2px",
+                    opacity: 0.75,
                   }}
                   aria-hidden="true"
                 />
