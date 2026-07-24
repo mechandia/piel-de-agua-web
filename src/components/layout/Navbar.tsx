@@ -7,7 +7,6 @@ const navLinks = [
   { label: "Colecciones", href: "#colecciones" },
   { label: "Tecnología", href: "#tecnologia" },
   { label: "Conservación", href: "#conservacion" },
-  { label: "El Club", href: "#club" },
   { label: "Contacto", href: "#contacto" },
 ];
 
