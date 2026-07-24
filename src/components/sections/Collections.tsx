@@ -39,7 +39,7 @@ export default function Collections() {
               }}
             >
               Cada estampado es fotorrealista e inspirado en la piel de una especie
-              marina amenazada. Llevar uno es una declaración de amor al océano.
+              marina amenazada. Llevar uno es una declaración de tu conexión con el océano.
             </p>
           </div>
         </ScrollReveal>
