@@ -105,11 +105,13 @@ export default function Navbar() {
           {/* CTA desktop — wrapper controls visibility, avoids .btn-primary overriding Tailwind hidden */}
           <div className="hidden md:block">
             <a
-              href="#tienda"
+              href="https://wa.me/573133339162?text=Hola%2C%20quiero%20información%20sobre%20los%20trajes%20Piel%20de%20Agua"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
               style={{ fontSize: "0.875rem", padding: "0.625rem 1.5rem" }}
             >
-              Tienda
+              Escríbenos
             </a>
           </div>
 
@@ -204,12 +206,14 @@ export default function Navbar() {
           </a>
         ))}
         <a
-          href="#tienda"
+          href="https://wa.me/573133339162?text=Hola%2C%20quiero%20información%20sobre%20los%20trajes%20Piel%20de%20Agua"
+          target="_blank"
+          rel="noopener noreferrer"
           onClick={handleLinkClick}
           className="btn-primary"
           style={{ marginTop: "1rem", textDecoration: "none" }}
         >
-          {brand.ctaPrimary}
+          Escríbenos
         </a>
       </div>
     </>
