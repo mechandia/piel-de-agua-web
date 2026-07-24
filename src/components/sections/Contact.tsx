@@ -112,12 +112,15 @@ export default function Contact() {
                     </div>
                   </a>
 
-                  {/* Email — placeholder */}
-                  <div
+                  {/* Email */}
+                  <a
+                    href={`mailto:${brand.email}`}
                     style={{
                       display: "flex",
                       alignItems: "center",
                       gap: "1rem",
+                      textDecoration: "none",
+                      color: "#ffffff",
                     }}
                   >
                     <div
@@ -126,7 +129,7 @@ export default function Contact() {
                         height: "44px",
                         borderRadius: "0.625rem",
                         background: "rgba(0,200,232,0.08)",
-                        border: "1.5px dashed rgba(0,200,232,0.2)",
+                        border: "1px solid rgba(0,200,232,0.15)",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "center",
@@ -138,7 +141,7 @@ export default function Contact() {
                         height="20"
                         viewBox="0 0 24 24"
                         fill="none"
-                        stroke="rgba(0,200,232,0.5)"
+                        stroke="#00c8e8"
                         strokeWidth="1.8"
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -161,78 +164,11 @@ export default function Contact() {
                       >
                         Email
                       </p>
-                      <p
-                        style={{
-                          fontSize: "0.9rem",
-                          color: "rgba(255,255,255,0.35)",
-                          fontStyle: "italic",
-                        }}
-                      >
-                        Pendiente · placeholder editable
+                      <p style={{ fontSize: "1.0625rem", fontWeight: 600 }}>
+                        {brand.email}
                       </p>
                     </div>
-                  </div>
-
-                  {/* Address — placeholder */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "1rem",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: "44px",
-                        height: "44px",
-                        borderRadius: "0.625rem",
-                        background: "rgba(0,200,232,0.08)",
-                        border: "1.5px dashed rgba(0,200,232,0.2)",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        flexShrink: 0,
-                      }}
-                    >
-                      <svg
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="rgba(0,200,232,0.5)"
-                        strokeWidth="1.8"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        aria-hidden="true"
-                      >
-                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                        <circle cx="12" cy="10" r="3" />
-                      </svg>
-                    </div>
-                    <div>
-                      <p
-                        style={{
-                          fontSize: "0.75rem",
-                          color: "rgba(255,255,255,0.45)",
-                          letterSpacing: "0.08em",
-                          textTransform: "uppercase",
-                          fontWeight: 500,
-                          marginBottom: "2px",
-                        }}
-                      >
-                        Dirección
-                      </p>
-                      <p
-                        style={{
-                          fontSize: "0.9rem",
-                          color: "rgba(255,255,255,0.35)",
-                          fontStyle: "italic",
-                        }}
-                      >
-                        Pendiente · placeholder editable
-                      </p>
-                    </div>
-                  </div>
+                  </a>
 
                   {/* Social */}
                   <div
@@ -333,7 +269,8 @@ export default function Contact() {
                     marginBottom: "0.5rem",
                   }}
                 >
-                  Política de cambios
+                  Cambios hasta{" "}
+                  <span style={{ color: "#00c8e8" }}>30 días</span>
                 </h3>
 
                 <div
@@ -441,36 +378,55 @@ export default function Contact() {
                   {returnPolicy.note}
                 </p>
 
-                {/* Shipping placeholder */}
+                {/* Shipping address */}
                 <div
                   style={{
                     background: "rgba(0,200,232,0.04)",
-                    border: "1.5px dashed rgba(0,200,232,0.2)",
+                    border: "1px solid rgba(0,200,232,0.15)",
                     borderRadius: "0.75rem",
                     padding: "1rem 1.25rem",
+                    display: "flex",
+                    gap: "0.75rem",
+                    alignItems: "flex-start",
                   }}
                 >
-                  <p
-                    style={{
-                      fontSize: "0.75rem",
-                      color: "#00c8e8",
-                      fontWeight: 600,
-                      letterSpacing: "0.08em",
-                      textTransform: "uppercase",
-                      marginBottom: "0.375rem",
-                    }}
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#00c8e8"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                    style={{ flexShrink: 0, marginTop: "2px" }}
                   >
-                    Dirección de envío · Pendiente
-                  </p>
-                  <p
-                    style={{
-                      color: "rgba(255,255,255,0.35)",
-                      fontSize: "0.875rem",
-                      fontStyle: "italic",
-                    }}
-                  >
-                    Agregar aquí la dirección para enviar cambios
-                  </p>
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div>
+                    <p
+                      style={{
+                        fontSize: "0.75rem",
+                        color: "#00c8e8",
+                        fontWeight: 600,
+                        letterSpacing: "0.08em",
+                        textTransform: "uppercase",
+                        marginBottom: "0.25rem",
+                      }}
+                    >
+                      Dirección de envío
+                    </p>
+                    <p
+                      style={{
+                        color: "rgba(255,255,255,0.65)",
+                        fontSize: "0.9rem",
+                      }}
+                    >
+                      {returnPolicy.shippingAddress}
+                    </p>
+                  </div>
                 </div>
               </div>
             </ScrollReveal>

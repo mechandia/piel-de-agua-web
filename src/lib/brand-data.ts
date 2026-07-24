@@ -13,8 +13,8 @@ export const brand = {
   country: "Colombia",
   phone: "313 333 9162",
   domain: "pieldeagua.com",
-  social: "@pieldeagua",
-  email: null as null, // PENDIENTE — placeholder editable
+  social: "@piel_de_agua",
+  email: "pieldeagua@gmail.com",
   address: null as null, // PENDIENTE — placeholder editable
   ctaPrimary: "Lleva el océano contigo",
   ctaSecondary: "Explorar colecciones",
@@ -268,5 +268,5 @@ export const returnPolicy = {
     "Defecto por cremallera",
   ],
   note: "Según disponibilidad de inventario y uso adecuado del producto.",
-  shippingAddress: null as null, // PENDIENTE — dirección de envío para cambios
+  shippingAddress: "Medellín, Colombia (a convenir)",
 };
