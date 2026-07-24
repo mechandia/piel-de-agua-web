@@ -126,7 +126,7 @@ export const technology = [
     iconKey: "move",
     title: "Diseño ergonómico",
     description:
-      "Cuello alto, cremallera frontal, mangas largas con aberturas para los pulgares y estribos para los pies.",
+      "Cuello alto, cremallera frontal, mangas largas con aberturas para los pulgares y estribos para los pies, asegurando un ajuste perfecto.",
   },
   {
     id: "fabric",
