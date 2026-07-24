@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import Opportunity from "@/components/sections/Opportunity";
 import Collections from "@/components/sections/Collections";
 import Technology from "@/components/sections/Technology";
+import Attributes from "@/components/sections/Attributes";
 import SportsGrid from "@/components/sections/SportsGrid";
 import Conservation from "@/components/sections/Conservation";
 import Club from "@/components/sections/Club";
@@ -18,6 +19,7 @@ export default function Home() {
       <Opportunity />
       <Collections />
       <Technology />
+      <Attributes />
       <SportsGrid />
       <Conservation />
       <Club />
