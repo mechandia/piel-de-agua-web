@@ -22,11 +22,11 @@ export default function Opportunity() {
             alignItems: "center",
           }}
         >
-          {/* Problem */}
+          {/* Context */}
           <ScrollReveal direction="left">
             <div>
               <p className="eyebrow" style={{ marginBottom: "1.25rem" }}>
-                El problema
+                Hecho para el Caribe
               </p>
               <h2
                 className="section-title"
@@ -36,7 +36,7 @@ export default function Opportunity() {
                   marginBottom: "1.5rem",
                 }}
               >
-                El neopreno no fue hecho para aguas cálidas
+                El neopreno es ideal para aguas frías. El Caribe no lo es.
               </h2>
               <p
                 style={{
@@ -46,9 +46,10 @@ export default function Opportunity() {
                   maxWidth: "42ch",
                 }}
               >
-                Pesado, caluroso y poco higiénico cuando se comparte. Si practicas
-                deportes acuáticos en el Caribe o en aguas templadas, el neopreno
-                trabaja en tu contra.
+                El neopreno funciona perfectamente en aguas de baja temperatura —
+                para eso fue diseñado. Pero en el Caribe y aguas cálidas, resulta
+                pesado, caluroso y menos cómodo de lo que mereces. Aquí es donde
+                entra Piel de Agua.
               </p>
             </div>
           </ScrollReveal>
