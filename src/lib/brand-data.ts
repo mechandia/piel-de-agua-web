@@ -77,7 +77,7 @@ export const collections = [
   },
   {
     id: "raya-aguila",
-    name: "Raya Águila / Manta",
+    name: "Raya Águila",
     headline: "Vuela bajo el agua",
     description:
       "Usa sus aletas pectorales como alas y salta más de 1 m fuera del agua. Cada raya tiene un patrón de manchas blancas único. Puede superar 3 m de envergadura y ~230 kg. Ovovivípara: las crías nacen ya formadas.",
