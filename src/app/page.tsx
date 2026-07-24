@@ -8,6 +8,7 @@ import SportsGrid from "@/components/sections/SportsGrid";
 import Conservation from "@/components/sections/Conservation";
 import Testimonials from "@/components/sections/Testimonials";
 import Catalog from "@/components/sections/Catalog";
+import SizeChart from "@/components/sections/SizeChart";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Conservation />
       <Testimonials />
       <Catalog />
+      <SizeChart />
       <Contact />
     </main>
   );
