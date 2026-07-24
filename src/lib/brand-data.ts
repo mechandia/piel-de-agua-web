@@ -112,7 +112,7 @@ export const technology = [
     iconKey: "droplets",
     title: "Creora® Highclo™",
     description:
-      "Resiste el cloro y el agua de mar. Mantiene la elasticidad 3× más que el promedio del mercado.",
+      "Mayor resistencia al cloro y al agua de mar. Mantiene la elasticidad 3× más que el promedio del mercado.",
   },
   {
     id: "drive",
