@@ -91,7 +91,7 @@ export default function Opportunity() {
 
               {/* Feature pills */}
               <div style={{ display: "flex", flexWrap: "wrap", gap: "0.625rem" }}>
-                {["Ligera", "UPF 50+", "Anti-sal", "Anti-cloro", "Hecha en Colombia"].map(
+                {["Ligera", "UPF 50+", "Resistente al mar", "Resistente al cloro", "Secado rápido", "Ajuste anatómico", "Hecha en Colombia"].map(
                   (f) => (
                     <span
                       key={f}
