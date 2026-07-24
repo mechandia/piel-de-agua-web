@@ -14,7 +14,7 @@ export const brand = {
   phone: "313 333 9162",
   domain: "pieldeagua.com",
   social: "@piel_de_agua",
-  email: "pieldeagua@gmail.com",
+  email: "comercial.pieldeagua@gmail.com",
   address: null as null, // PENDIENTE — placeholder editable
   ctaPrimary: "Lleva el océano contigo",
   ctaSecondary: "Explorar colecciones",
