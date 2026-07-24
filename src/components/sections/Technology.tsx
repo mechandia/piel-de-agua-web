@@ -138,14 +138,16 @@ export default function Technology() {
             >
               85% Poliéster{" "}
               <span style={{ color: "rgba(255,255,255,0.35)" }}>·</span>{" "}
-              15% Elastano
+              15% Elastano{" "}
+              <span style={{ color: "rgba(255,255,255,0.35)" }}>·</span>{" "}
+              <span style={{ color: "#00c8e8" }}>240 g/m²</span>
               <span
                 style={{
-                  display: "inline-block",
-                  marginLeft: "1rem",
+                  display: "block",
                   fontSize: "0.875rem",
                   fontWeight: 500,
-                  color: "#00c8e8",
+                  color: "rgba(255,255,255,0.45)",
+                  marginTop: "0.375rem",
                 }}
               >
                 Fabricado en Brasil · Confeccionado en Colombia
