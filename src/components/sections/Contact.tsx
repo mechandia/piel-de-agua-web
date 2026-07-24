@@ -269,8 +269,7 @@ export default function Contact() {
                     marginBottom: "0.5rem",
                   }}
                 >
-                  Cambios hasta{" "}
-                  <span style={{ color: "#00c8e8" }}>30 días</span>
+                  Política de cambios
                 </h3>
 
                 <div
@@ -306,7 +305,7 @@ export default function Contact() {
                       fontWeight: 600,
                     }}
                   >
-                    {returnPolicy.term} {returnPolicy.termNote}
+                    Hasta {returnPolicy.term} {returnPolicy.termNote}
                   </span>
                 </div>
 
