@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import LenisProvider from "@/components/providers/LenisProvider";
 
 const syne = Syne({
   variable: "--font-syne",
@@ -48,7 +47,7 @@ export default function RootLayout({
       className={`${syne.variable} ${spaceGrotesk.variable} antialiased`}
     >
       <body>
-        <LenisProvider>{children}</LenisProvider>
+        {children}
       </body>
     </html>
   );
