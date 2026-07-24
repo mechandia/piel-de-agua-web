@@ -117,7 +117,7 @@ export const technology = [
   {
     id: "drive",
     iconKey: "wind",
-    title: 'Secado rápido "DRIVE"',
+    title: 'Secado rápido "DRY"',
     description:
       "Acelera la evaporación del sudor y estabiliza la temperatura corporal entre olas.",
   },
