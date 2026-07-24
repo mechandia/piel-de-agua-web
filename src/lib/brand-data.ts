@@ -160,21 +160,21 @@ export const sports = [
 export const testimonials = [
   {
     quote:
-      "Tres horas de apnea y cero rozaduras con el coral. La protección solar es real.",
+      "Llevaba años untándome bloqueador antes de entrar al mar. Con este traje ya no lo necesito. Tres horas de apnea y sin una rasquiña, sin irritación, sin nada.",
     author: "Valentina R.",
     location: "Cozumel",
     rating: 5,
   },
   {
     quote:
-      "Se seca entre olas y no se deforma. Más cómodo que mi neopreno en aguas cálidas.",
+      "Pensé que iba a ser un neopreno más del montón. Pero no — es ligerísimo, no da calor y se seca rapidísimo. Llevo meses usándolo y sigue igual de nuevo.",
     author: "Diego M.",
     location: "Santa Marta",
     rating: 5,
   },
   {
     quote:
-      "Lo recomiendo a todos mis alumnos. Higiene y una capa más de seguridad.",
+      "Soy instructor y se lo recomiendo a todos mis estudiantes. Fuera de la protección solar, te da una capa extra de seguridad con los corales. No me lo quito.",
     author: "Andrés P.",
     location: "Roatán",
     rating: 5,

@@ -6,7 +6,6 @@ import Technology from "@/components/sections/Technology";
 import Attributes from "@/components/sections/Attributes";
 import SportsGrid from "@/components/sections/SportsGrid";
 import Conservation from "@/components/sections/Conservation";
-import Club from "@/components/sections/Club";
 import Testimonials from "@/components/sections/Testimonials";
 import Catalog from "@/components/sections/Catalog";
 import Contact from "@/components/sections/Contact";
@@ -22,7 +21,6 @@ export default function Home() {
       <Attributes />
       <SportsGrid />
       <Conservation />
-      <Club />
       <Testimonials />
       <Catalog />
       <Contact />

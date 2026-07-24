@@ -131,8 +131,8 @@ export default function SportsGrid() {
                 lineHeight: 1.7,
               }}
             >
-              Nadar, bucear, surfear o volar en el viento —Piel de Agua se
-              adapta a ti sin importar cómo te muevas en el agua.
+              Nadar, surfear o bucear —Piel de Agua se adapta a ti sin
+              importar cómo te muevas en el agua.
             </p>
           </div>
         </ScrollReveal>

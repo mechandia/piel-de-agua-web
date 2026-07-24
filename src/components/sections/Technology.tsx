@@ -221,62 +221,6 @@ export default function Technology() {
           ))}
         </div>
 
-        {/* Zipper detail */}
-        <ScrollReveal delay={0.1}>
-          <div
-            style={{
-              marginTop: "3rem",
-              background: "#041527",
-              border: "1px solid rgba(255,255,255,0.06)",
-              borderRadius: "1.25rem",
-              padding: "clamp(1.75rem, 4vw, 2.5rem)",
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
-              gap: "2rem",
-              alignItems: "center",
-            }}
-          >
-            <div>
-              <p className="eyebrow" style={{ marginBottom: "0.875rem" }}>
-                Cremallera de alta ingeniería
-              </p>
-              <p
-                style={{
-                  color: "rgba(255,255,255,0.65)",
-                  fontSize: "0.9375rem",
-                  lineHeight: 1.7,
-                }}
-              >
-                Sintética en poliéster con dientes de monofilamento. Deslizador
-                semiautomático en plástico y acero inoxidable. Topes en cobre-zinc-níquel:
-                inoxidables, anticorrosión y resistentes al agua de mar.
-              </p>
-            </div>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
-              {[
-                "Anti-corrosión",
-                "Acero inoxidable",
-                "Resistente al mar",
-                "Semiautomática",
-              ].map((tag) => (
-                <span
-                  key={tag}
-                  style={{
-                    background: "rgba(0,200,232,0.08)",
-                    border: "1px solid rgba(0,200,232,0.2)",
-                    borderRadius: "9999px",
-                    padding: "0.375rem 1rem",
-                    fontSize: "0.8125rem",
-                    color: "#00c8e8",
-                    fontWeight: 500,
-                  }}
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          </div>
-        </ScrollReveal>
       </div>
     </section>
   );
