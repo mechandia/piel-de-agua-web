@@ -90,7 +90,7 @@ export default function Technology() {
         <ScrollReveal>
           <div style={{ textAlign: "center", marginBottom: "clamp(3rem, 6vw, 5rem)" }}>
             <p className="eyebrow" style={{ marginBottom: "1rem" }}>
-              Tecnología de la tela
+              Tecnología del tejido
             </p>
             <h2
               className="section-title"
